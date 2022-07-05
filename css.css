@@ -16,7 +16,7 @@ body {
 
 section {
     display: flex;
-    background-image: url(top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
