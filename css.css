@@ -3,8 +3,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.header-3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .span {
-    font-size: 50px;
     color: orange;
     font-family: 'Poppins', sans-serif;
 }
@@ -14,7 +18,7 @@ body {
     margin: 0;
 }
 
-section {
+.flex {
     display: flex;
     margin-bottom: 150px;
 }
@@ -28,6 +32,12 @@ section {
     background-image: url(images/dream-big.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.section-3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .half-width {
@@ -51,4 +61,24 @@ section {
 
 .paragraph {
     text-align: left;
+}
+
+.shadow {
+    box-shadow: 10px 10px 20px grey;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#stack {
+    border-left: 10px solid tomato;
+}
+
+#web {
+    border-left: 10px solid blueviolet;
+}
+
+.footer-allign {
+    text-align: center;
 }
